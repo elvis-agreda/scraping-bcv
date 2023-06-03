@@ -187,6 +187,3 @@ def tasa_bancos(day: str, month: str, year: str):
         x = x + 1
 
     return (lista)
-
-
-print(ayuda('2', '5', '2023'))
