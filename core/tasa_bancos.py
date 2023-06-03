@@ -20,7 +20,7 @@ def month_convert(number: str):
     return month[number]
 
 
-def ayuda(day: str, month: str, year: str):
+def tasa_bancos(day: str, month: str, year: str):
     fecha = day + ' ' + month_convert(month) + ' ' + year
     payload = {
         'field_fecha_del_indicador_value[min][date]': fecha,
